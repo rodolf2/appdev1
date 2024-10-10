@@ -6,4 +6,13 @@ function MyButton() {
   )
 }
 
-export default MyButton
+function MyApp() {
+  return (
+    <>
+      <h1>Welcome to my app</h1>
+      <MyButton />
+    </>
+  )
+}
+
+export default MyApp
