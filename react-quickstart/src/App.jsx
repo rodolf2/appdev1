@@ -1,16 +1,15 @@
 import './App.css'
+import MyButton from './MyButton'
 
-function MyButton() {
-  function handleClick() {
-    alert('You clicked me!');
-  }
 
+function  App() {
   return (
-    <button onClick={handleClick}>
-      Click me
-    </button>
-  );
+    <>
+      <h1>Counters that update separately</h1>
+      <MyButton />
+      <MyButton />
+      <MyButton />
+    </>
+  )
 }
-
-
-export default MyButton
+export default App
